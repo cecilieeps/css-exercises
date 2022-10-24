@@ -1,0 +1,24 @@
+.pinkHighlight {
+    background-color: rgb(243, 149, 177);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-size: 20px;
+}
+
+/* Since this has more classes, this rule be applied rather than the one in
+.pinkHighlight */
+.pinkHighlight.number3 {
+    font-size: 24px;
+}
+
+#number2 {
+    color: blue;
+    font-size: 36px;
+    font-family: "Monaco", monospace;
+}
+
+#number4 {
+    background-color: rgb(81, 219, 81);
+    font-family: "Monaco", monospace;
+    font-size: 24px;
+    font-weight: 800;
+}
